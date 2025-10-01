@@ -9,6 +9,17 @@
 <body>
     <h1 class="titulo">Bienvenidos a mi prueba</h1>
     <p class="parrafo">Esto es una prueba de git</p>
-    <button class="boton">Pulsa aquí para desestresarte.</button>
+    <button id="botonn" class="boton">Pulsa aquí para desestresarte.</button>
+
+    <script>
+
+        let boton1 = document.getElementById("botonn");
+
+        boton1.addEventListener("click", function () {
+            boton1.classList.remove("boton");
+        })
+
+
+    </script>
 </body>
 </html>
